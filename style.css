@@ -570,3 +570,52 @@ h1, h2, h3, h4, .logo {
         font-size: 1.4rem;
     }
 }
+
+.logo-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo {
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.logo:hover {
+    opacity: 0.8;
+}
+.nav-links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.nav-links a {
+    color: var(--on-bg-dark);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.nav-links a:hover {
+    color: var(--primary-dark);
+}
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: var(--on-bg-dark);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+.icon-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide links on very small screens to prevent overflow */
+    }
+}
