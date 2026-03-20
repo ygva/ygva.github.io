@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion - myPocket | YGVA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg: #F9F9FF;
+            --text: #1A1B20;
+            --surface: #FFFFFF;
+            --primary: #445E91;
+            --border: #E1E2EC;
+            --tertiary: #006A63;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111318;
+                --text: #E2E2E9;
+                --surface: #1E1F25;
+                --primary: #ADC6FF;
+                --border: #44474F;
+                --tertiary: #81D5CC;
+            }
+        }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: var(--surface); padding: 40px; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 24px rgba(0,0,0,0.05); }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; color: var(--primary); }
+        .header-box { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+        .header-icon { color: var(--tertiary); background: rgba(0, 106, 99, 0.1); padding: 12px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        @media (prefers-color-scheme: dark) {
+            .header-icon { background: rgba(129, 213, 204, 0.1); }
+        }
+        .header-box h1 { border: none; padding: 0; margin: 0; text-align: left; }
+        .intro-text { font-size: 1.1rem; color: var(--text); margin-bottom: 40px; }
+        
+        .accordion { display: flex; flex-direction: column; gap: 16px; }
+        .accordion-item { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: all 0.3s; }
+        .accordion-header { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; background: transparent; border: none; color: var(--text); font-size: 1.1rem; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; text-align: left; }
+        .accordion-icon { transition: transform 0.3s; color: var(--primary); }
+        .accordion-header[aria-expanded="true"] .accordion-icon { transform: rotate(180deg); }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+        .accordion-content p, .accordion-content div { padding: 0 24px 24px; color: var(--text); opacity: 0.9; }
+        .accordion-item.active { border-color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        
+        .action-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 24px; background: var(--primary); border-radius: 100px; color: #fff; text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-top: 16px; transition: transform 0.2s, filter 0.2s; }
+        @media (prefers-color-scheme: dark) { .action-btn { color: #102F60; } }
+        .action-btn:hover { transform: translateY(-2px); filter: brightness(1.1); text-decoration: none;}
+        
+        .back-btn { display: inline-block; margin-bottom: 24px; padding: 8px 16px; background: var(--border); border-radius: 8px; color: var(--text); text-decoration: none; font-weight: 600;}
+        .footer { margin-top: 40px; font-size: 0.9rem; color: #888; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/mypocket/en/" class="back-btn">&larr; Back to App</a>
+        
+        <div class="header-box">
+            <div class="header-icon">
+                <i data-lucide="shield-check" style="width: 36px; height: 36px;"></i>
+            </div>
+            <h1>Data Deletion Policy</h1>
+        </div>
+        
+        <p class="intro-text">To request the removal of your data from myPocket, please follow the instructions below. We value your privacy and ensure that all requests are processed within 30 business days.</p>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false">
+                    <span>What data is stored?</span>
+                    <i data-lucide="chevron-down" class="accordion-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>The app saves: timestamp, nickname, level, purchaseToken, and status to display on the Honor Wall.</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false">
+                    <span>How to request deletion?</span>
+                    <i data-lucide="chevron-down" class="accordion-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Send an email to <strong>ygsva.tech+mypocket.support@gmail.com</strong> with the subject "Data Deletion Request – myPocket" and include your in-app nickname.</p>
+                    <div>
+                        <a href="mailto:ygsva.tech+mypocket.support@gmail.com?subject=Data%20Deletion%20Request%20-%20myPocket" class="action-btn">
+                            <i data-lucide="mail" style="width: 18px; height: 18px;"></i>
+                            CLICK HERE TO SEND THE REQUEST EMAIL
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false">
+                    <span>What happens next?</span>
+                    <i data-lucide="chevron-down" class="accordion-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Your data will be removed from our database within 30 business days. Minimal information may be retained if required by law.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">&copy; 2026 YGVA. All Rights Reserved.</div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+        document.querySelectorAll('.accordion-header').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const content = item.querySelector('.accordion-content');
+                const isActive = item.classList.contains('active');
+                
+                document.querySelectorAll('.accordion-item').forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.accordion-header').setAttribute('aria-expanded', 'false');
+                    otherItem.querySelector('.accordion-content').style.maxHeight = null;
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>

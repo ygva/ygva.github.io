@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YGVA | Portfólio de Aplicativos</title>
+    <meta name="description" content="Bem-vindo ao meu portfólio de aplicativos. Ferramentas inteligentes para facilitar sua rotina.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 40px;
+        }
+        .app-card {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            text-align: left;
+            position: relative;
+        }
+        .app-icon {
+            width: 72px;
+            height: 72px;
+            background: var(--surface-container-light);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: var(--primary-light);
+            border: 1px solid var(--border-color);
+        }
+        .app-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            color: var(--on-surface-light);
+        }
+        .app-card p {
+            color: var(--on-surface-variant-light);
+            margin-bottom: 32px;
+            flex-grow: 1;
+        }
+        .app-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .about-section {
+            padding: 100px 0;
+            background-color: var(--surface-container-light);
+            text-align: center;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            color: var(--on-surface-variant-light);
+            margin-bottom: 32px;
+        }
+        .contact-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #fff;
+            padding: 16px 32px;
+            border-radius: 100px;
+            border: 1px solid var(--border-color);
+            color: var(--primary-light);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .contact-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-color: var(--outline-light);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar theme-dark">
+        <div class="container nav-content">
+            <div class="logo">
+                <i data-lucide="code-2" class="logo-icon"></i>
+                <span>YGVA</span>
+            </div>
+            <a href="#apps" class="btn btn-primary">Ver Aplicativos</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero -->
+        <section class="hero theme-dark relative-section" style="min-height: 80vh;">
+            <div class="glow-blob"></div>
+            <div class="container" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                <div class="badge" style="margin: 0 auto 24px;">Portfólio do Desenvolvedor</div>
+                <h1 class="hero-title">Ferramentas inteligentes para facilitar sua <span class="gradient-text-dark">rotina.</span></h1>
+                <p class="hero-description" style="margin: 0 auto 40px;">
+                    Bem-vindo ao meu portfólio de aplicativos 🎉<br>
+                    Aqui você encontra os apps que desenvolvi com carinho para facilitar sua vida.
+                </p>
+                <div style="margin-top: 24px;">
+                    <a href="#apps" class="btn btn-primary btn-large">Explorar Apps</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Portfolio -->
+        <section id="apps" class="features" style="padding-top: 100px;">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Meus Aplicativos</h2>
+                    <p>Feitos para oferecer a melhor experiência e resolver problemas do dia a dia.</p>
+                </div>
+                
+                <div class="app-grid">
+                    <!-- myPocket -->
+                    <div class="card-light app-card">
+                        <div class="app-icon" style="color: var(--tertiary-light); background: #E0F2F1;">
+                            <i data-lucide="wallet" style="width: 32px; height: 32px;"></i>
+                        </div>
+                        <h3>myPocket</h3>
+                        <p>Suas finanças na palma da mão. Controle gastos, organize seu orçamento sem complicações e tenha clareza de para onde seu dinheiro está indo de forma 100% offline.</p>
+                        <div class="app-links">
+                            <a href="/mypocket/" class="btn" style="background: var(--surface-container-light); color: var(--on-surface-light);">Website do App</a>
+                            <a href="https://play.google.com/store/apps/details?id=br.com.ygva.mypocket" target="_blank" class="btn btn-primary">Play Store</a>
+                        </div>
+                        <!-- Links ocultos para SEO e acesso fácil a políticas -->
+                        <div style="margin-top: 24px; font-size: 0.8rem;">
+                            <a href="/privacy/mypocket/pt/" style="color: var(--text-muted);">Política de Privacidade</a> &bull; 
+                            <a href="/privacy/mypocket/pt/exclusao-de-dados/" style="color: var(--text-muted);">Exclusão de Dados</a>
+                        </div>
+                    </div>
+
+                    <!-- Math Coach -->
+                    <div class="card-light app-card">
+                        <div class="app-icon" style="color: #BA1A1A; background: #FFEDEA;">
+                            <i data-lucide="calculator" style="width: 32px; height: 32px;"></i>
+                        </div>
+                        <h3>Math Coach</h3>
+                        <p>Domine a matemática de forma divertida. Pratique cálculos e melhore seu raciocínio com desafios rápidos para treinar a sua mente no dia a dia.</p>
+                        <div class="app-links">
+                            <a href="https://play.google.com/store/apps/details?id=br.com.ygva.mathcoach" target="_blank" class="btn btn-primary">Play Store</a>
+                        </div>
+                        <div style="margin-top: 24px; font-size: 0.8rem;">
+                            <a href="/privacy/math-coach/pt/" style="color: var(--text-muted);">Política de Privacidade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Contact -->
+        <section class="about-section">
+            <div class="container about-content">
+                <h2>Sobre a YGVA</h2>
+                <div style="width: 60px; height: 4px; background: var(--primary-light); margin: 24px auto 32px; border-radius: 4px;"></div>
+                <p>Sou um desenvolvedor focado em criar ferramentas intuitivas que resolvem problemas reais. Meus aplicativos são pensados para oferecer a melhor experiência, sem anúncios invasivos e com foco na sua produtividade e conveniência.</p>
+                <a href="mailto:ygsva.tech+support@gmail.com" class="contact-box">
+                    <i data-lucide="mail"></i>
+                    ygsva.tech+support@gmail.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer theme-dark">
+        <div class="container text-center">
+            <p class="copyright">&copy; 2026 YGVA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
