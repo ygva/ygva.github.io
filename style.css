@@ -39,6 +39,7 @@
     --outline-dark: #8E9099;
     --surface-container-dark: #1E1F25;
     --surface-container-high-dark: #282A2F;
+    --outline-variant-dark: #44474F;
 
     /* Variables for active theme (Light by default for body) */
     --bg-main: var(--bg-light);
@@ -521,7 +522,7 @@ h1, h2, h3, h4, .logo {
 .closing-phrase {
     font-size: 1.8rem;
     margin-bottom: 40px;
-    background: linear-gradient(to right, #FFFFFF, var(--outline-variant-dark));
+    background: linear-gradient(to right, #FFFFFF, var(--primary-dark));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

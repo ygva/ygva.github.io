@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YGVA | Portfólio de Aplicativos</title>
+    <title>YGVA | App Portfolio</title>
     <meta name="description"
-        content="Bem-vindo ao meu portfólio de aplicativos. Ferramentas inteligentes para facilitar sua rotina.">
+        content="Welcome to my app portfolio. Smart tools to simplify your routine.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
         rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -105,7 +105,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
-    <link rel="icon" type="image/png" href="assets/logo_round.png">
+    <link rel="icon" type="image/png" href="../assets/logo_round.png">
 </head>
 
 <body>
@@ -113,22 +113,22 @@
     <!-- Header -->
     <header class="navbar theme-dark">
         <div class="container nav-content">
-            <a href="/" class="logo">
-                <img src="assets/logo_round.png" alt="YGVA Logo" class="logo-img" width="36" height="36"
+            <a href="./" class="logo">
+                <img src="../assets/logo_round.png" alt="YGVA Logo" class="logo-img" width="36" height="36"
                     style="border-radius:50%; object-fit:cover;">
                 <span>ygva</span>
             </a>
             <div class="nav-right">
                 <nav class="nav-links">
-                    <a href="./" class="active">Início</a>
-                    <a href="math-coach/">Math Coach</a>
-                    <a href="mypocket/">myPocket</a>
+                    <a href="./" class="active">Home</a>
+                    <a href="../math-coach/en/">Math Coach</a>
+                    <a href="../mypocket/en/">myPocket</a>
                 </nav>
                 <div class="lang-switcher-nav">
-                    <a href="en/" title="English">
+                    <a href="#" class="active" title="English">
                         <span class="fi fi-us fis"></span> EN
                     </a>
-                    <a href="#" class="active" title="Português">
+                    <a href="../" title="Português">
                         <span class="fi fi-br fis"></span> PT
                     </a>
                 </div>
@@ -143,15 +143,15 @@
             <div class="glow-blob"></div>
             <div class="container"
                 style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
-                <div class="badge" style="margin: 0 auto 24px;">Portfólio do Desenvolvedor</div>
-                <h1 class="hero-title">Ferramentas inteligentes para facilitar sua <span
-                        class="gradient-text-dark">rotina.</span></h1>
+                <div class="badge" style="margin: 0 auto 24px;">Developer Portfolio</div>
+                <h1 class="hero-title">Smart tools to simplify your <span
+                        class="gradient-text-dark">routine.</span></h1>
                 <p class="hero-description" style="margin: 0 auto 40px;">
-                    Bem-vindo ao meu portfólio de aplicativos 🎉<br>
-                    Aqui você encontra os apps que desenvolvi com carinho para facilitar sua vida.
+                    Welcome to my app portfolio 🎉<br>
+                    Here you can find the apps I developed with care to make your life easier.
                 </p>
                 <div style="margin-top: 24px;">
-                    <a href="#apps" class="btn btn-primary btn-large">Explorar Apps</a>
+                    <a href="#apps" class="btn btn-primary btn-large">Explore Apps</a>
                 </div>
             </div>
         </section>
@@ -160,8 +160,8 @@
         <section id="apps" class="features" style="padding-top: 100px;">
             <div class="container">
                 <div class="section-header text-center">
-                    <h2>Meus Aplicativos</h2>
-                    <p>Feitos para oferecer a melhor experiência e resolver problemas do dia a dia.</p>
+                    <h2>My Apps</h2>
+                    <p>Made to offer the best experience and solve everyday problems.</p>
                 </div>
 
                 <div class="app-grid">
@@ -171,21 +171,20 @@
                             <i data-lucide="wallet" style="width: 32px; height: 32px;"></i>
                         </div>
                         <h3>myPocket</h3>
-                        <p>Suas finanças na palma da mão. Controle gastos, organize seu orçamento sem complicações e
-                            tenha clareza de para onde seu dinheiro está indo de forma 100% offline.</p>
+                        <p>Your finances in the palm of your hand. Control spending, organize your budget without
+                            complications, and have clarity on where your money is going in a 100% offline way.</p>
                         <div class="app-links">
-                            <a href="/mypocket/" class="btn"
-                                style="background: var(--surface-container-light); color: var(--on-surface-light);">Website
-                                do App</a>
+                            <a href="../mypocket/en/" class="btn"
+                                style="background: var(--surface-container-light); color: var(--on-surface-light);">App
+                                Website</a>
                             <a href="https://play.google.com/store/apps/details?id=br.com.ygva.mypocket" target="_blank"
                                 class="btn btn-primary">Play Store</a>
                         </div>
-                        <!-- Links ocultos para SEO e acesso fácil a políticas -->
+                        <!-- SEO and easy access to policies -->
                         <div style="margin-top: 24px; font-size: 0.8rem;">
-                            <a href="/privacy/mypocket/pt/" style="color: var(--text-muted);">Política de
-                                Privacidade</a> &bull;
-                            <a href="/privacy/mypocket/pt/exclusao-de-dados/" style="color: var(--text-muted);">Exclusão
-                                de Dados</a>
+                            <a href="/privacy/mypocket/en/" style="color: var(--text-muted);">Privacy Policy</a> &bull;
+                            <a href="/privacy/mypocket/pt/exclusao-de-dados/" style="color: var(--text-muted);">Data
+                                Deletion</a>
                         </div>
                     </div>
 
@@ -195,18 +194,17 @@
                             <i data-lucide="calculator" style="width: 32px; height: 32px;"></i>
                         </div>
                         <h3>Math Coach</h3>
-                        <p>Domine a matemática de forma divertida. Pratique cálculos e melhore seu raciocínio com
-                            desafios rápidos para treinar a sua mente no dia a dia.</p>
+                        <p>Master mathematics in a fun way. Practice calculations and improve your reasoning with
+                            quick challenges to train your mind daily.</p>
                         <div class="app-links">
-                            <a href="/math-coach/" class="btn"
-                                style="background: var(--surface-container-light); color: var(--on-surface-light);">Website
-                                do App</a>
+                            <a href="../math-coach/en/" class="btn"
+                                style="background: var(--surface-container-light); color: var(--on-surface-light);">App
+                                Website</a>
                             <a href="https://play.google.com/store/apps/details?id=br.com.ygva.mathcoach"
                                 target="_blank" class="btn btn-primary">Play Store</a>
                         </div>
                         <div style="margin-top: 24px; font-size: 0.8rem;">
-                            <a href="/privacy/math-coach/pt/" style="color: var(--text-muted);">Política de
-                                Privacidade</a>
+                            <a href="/privacy/math-coach/en/" style="color: var(--text-muted);">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
@@ -216,13 +214,13 @@
         <!-- About / Contact -->
         <section class="about-section">
             <div class="container about-content">
-                <h2>Sobre a YGVA</h2>
+                <h2>About YGVA</h2>
                 <div
                     style="width: 60px; height: 4px; background: var(--primary-light); margin: 24px auto 32px; border-radius: 4px;">
                 </div>
-                <p>Sou um desenvolvedor focado em criar ferramentas intuitivas que resolvem problemas reais. Meus
-                    aplicativos são pensados para oferecer a melhor experiência, sem anúncios invasivos e com foco na
-                    sua produtividade e conveniência.</p>
+                <p>I am a developer focused on creating intuitive tools that solve real problems. My apps are designed
+                    to offer the best experience, without invasive ads and with a focus on your productivity and
+                    convenience.</p>
                 <a href="mailto:ygsva.tech+support@gmail.com" class="contact-box">
                     <i data-lucide="mail"></i>
                     ygsva.tech+support@gmail.com
