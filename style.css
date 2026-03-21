@@ -614,8 +614,54 @@ h1, h2, h3, h4, .logo {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Language Switcher in Nav */
+.lang-switcher-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 16px;
+    padding-left: 16px;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
+.lang-switcher-nav a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: var(--on-bg-dark);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+.lang-switcher-nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--on-bg-dark);
+}
+.lang-switcher-nav a.active {
+    background: rgba(173, 198, 255, 0.15);
+    border-color: var(--primary-dark);
+    color: var(--primary-dark);
+}
+.lang-switcher-nav .fi {
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none; /* Hide links on very small screens to prevent overflow */
+    }
+    .lang-switcher-nav {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
     }
 }
