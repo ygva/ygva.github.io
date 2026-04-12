@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home -->
+  <url>
+    <loc>https://ygva.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Math Coach -->
+  <url>
+    <loc>https://ygva.github.io/math-coach/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/math-coach/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/math-coach/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/math-coach/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/math-coach/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/math-coach/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- myPocket -->
+  <url>
+    <loc>https://ygva.github.io/mypocket/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/mypocket/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/mypocket/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/mypocket/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/mypocket/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/mypocket/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Privacy: Math Coach -->
+  <url>
+    <loc>https://ygva.github.io/privacy/math-coach/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/math-coach/es/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/math-coach/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/math-coach/es/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/math-coach/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/math-coach/es/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Privacy: myPocket -->
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Data Deletion / Exclusão de Dados -->
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/data-deletion/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/en/data-deletion/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/data-deletion/"/>
+    <lastmod>2026-04-12</lastmod>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
