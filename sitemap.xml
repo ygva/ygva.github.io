@@ -39,14 +39,24 @@
     <loc>https://ygva.github.io/mypocket/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/mypocket/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/mypocket/en/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ygva.github.io/mypocket/en/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/mypocket/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/mypocket/en/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/mypocket/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/mypocket/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/mypocket/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
   </url>
 
@@ -81,30 +91,50 @@
     <loc>https://ygva.github.io/privacy/mypocket/pt/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ygva.github.io/privacy/mypocket/en/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/"/>
+    <lastmod>2026-10-19</lastmod>
     <priority>0.5</priority>
   </url>
 
-  <!-- Data Deletion / Exclusão de Dados -->
+  <!-- Data Deletion / Exclusão / Eliminación de Datos -->
   <url>
     <loc>https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/data-deletion/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/eliminacion-de-datos/"/>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://ygva.github.io/privacy/mypocket/en/data-deletion/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/data-deletion/"/>
-    <lastmod>2026-04-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/eliminacion-de-datos/"/>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/privacy/mypocket/es/eliminacion-de-datos/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/privacy/mypocket/pt/exclusao-de-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/privacy/mypocket/en/data-deletion/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/privacy/mypocket/es/eliminacion-de-datos/"/>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.4</priority>
   </url>
 
