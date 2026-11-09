@@ -138,4 +138,30 @@
     <priority>0.4</priority>
   </url>
 
+  <!-- Terms of Use: myPocket -->
+  <url>
+    <loc>https://ygva.github.io/terms/mypocket/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/mypocket/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/mypocket/es/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/terms/mypocket/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/mypocket/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/mypocket/es/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/terms/mypocket/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/mypocket/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/mypocket/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/mypocket/es/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
