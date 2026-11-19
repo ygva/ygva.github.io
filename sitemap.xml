@@ -138,7 +138,7 @@
     <priority>0.4</priority>
   </url>
 
-  <!-- Terms of Use: myPocket -->
+  <!-- Terms of Service: myPocket -->
   <url>
     <loc>https://ygva.github.io/terms/mypocket/pt/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/mypocket/pt/"/>
@@ -164,7 +164,7 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Terms of Use: Math Coach -->
+  <!-- Terms of Service: Math Coach -->
   <url>
     <loc>https://ygva.github.io/terms/math-coach/pt/</loc>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/math-coach/pt/"/>
