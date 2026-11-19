@@ -164,4 +164,30 @@
     <priority>0.5</priority>
   </url>
 
+  <!-- Terms of Use: Math Coach -->
+  <url>
+    <loc>https://ygva.github.io/terms/math-coach/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/math-coach/es/"/>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/terms/math-coach/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/math-coach/es/"/>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ygva.github.io/terms/math-coach/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://ygva.github.io/terms/math-coach/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ygva.github.io/terms/math-coach/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ygva.github.io/terms/math-coach/es/"/>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
