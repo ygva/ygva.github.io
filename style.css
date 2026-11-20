@@ -573,10 +573,9 @@ h1, h2, h3, h4, .logo {
 }
 
 .logo-img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    object-fit: cover;
+    height: 32px;
+    width: auto;
+    display: block;
 }
 .logo {
     text-decoration: none;
