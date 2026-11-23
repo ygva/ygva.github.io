@@ -28,91 +28,7 @@
     <link rel="stylesheet" href="../style.css">
 
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        .app-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 32px;
-            margin-top: 40px;
-        }
-
-        .app-card {
-            display: flex;
-            flex-direction: column;
-            padding: 40px;
-            text-align: left;
-            position: relative;
-        }
-
-        .app-icon {
-            width: 72px;
-            height: 72px;
-            background: var(--surface-container-light);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-            color: var(--primary-light);
-            border: 1px solid var(--border-color);
-        }
-
-        .app-card h3 {
-            font-size: 1.8rem;
-            margin-bottom: 12px;
-            color: var(--on-surface-light);
-        }
-
-        .app-card p {
-            color: var(--on-surface-variant-light);
-            margin-bottom: 32px;
-            flex-grow: 1;
-        }
-
-        .app-links {
-            display: flex;
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        .about-section {
-            padding: 100px 0;
-            background-color: var(--surface-container-light);
-            text-align: center;
-        }
-
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .about-content p {
-            font-size: 1.1rem;
-            color: var(--on-surface-variant-light);
-            margin-bottom: 32px;
-        }
-
-        .contact-box {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            background: #fff;
-            padding: 16px 32px;
-            border-radius: 100px;
-            border: 1px solid var(--border-color);
-            color: var(--primary-light);
-            font-weight: 600;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .contact-box:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            border-color: var(--outline-light);
-        }
-    </style>
+    <script src="https://unpkg.com/lucide@1.78.0" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
     <link rel="icon" type="image/svg+xml" href="../assets/logo_icon.svg">
     <link rel="icon" type="image/png" href="../assets/logo_round.png">
@@ -247,9 +163,7 @@
         </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-    </script>
+    <script src="../main.js" defer></script>
 </body>
 
 </html>
