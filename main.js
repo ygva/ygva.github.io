@@ -1,8 +1,10 @@
-// Initialize Lucide Icons
-lucide.createIcons();
-
 // Accordion Logic
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize Lucide Icons safely
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+
     const accordions = document.querySelectorAll('.accordion-item');
 
     accordions.forEach(item => {
@@ -11,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         header.addEventListener('click', () => {
             const isActive = item.classList.contains('active');
-            
+
             // Close all other accordions
             accordions.forEach(otherItem => {
                 otherItem.classList.remove('active');
